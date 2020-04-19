@@ -1,0 +1,138 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+li{
+    list-style: none;
+}
+
+.bar{
+    background-color: #bfbfbf;
+    width:100%;
+    height:24px;
+    color:white;
+    text-align: center;
+    position:fixed;
+    top:100px;
+    opacity:0.95;
+}
+
+header{
+    padding-top:10px;
+    width:970px;
+    height:50px;
+    margin:0 auto;
+}
+.header-left img{
+    float:left;
+}
+.header-right li{
+    float:right;
+    padding-left:40px;
+    line-height:50px;
+    color:#555;
+    font-family:"YuGothic";
+    font-size:18px;
+    font-weight:700;
+}
+.hello{
+    width:1280px;
+    height:600px;
+    margin:0 auto;
+}
+.our h1{
+    font-size:36px;
+    font-family: "YuGothic";
+    font-weight:700;
+    border-bottom:thick solid #51A2BC;
+    color:#555;
+    width:185px;
+    margin:0 auto;
+    margin-top:80px;
+    margin-bottom: 40px;
+}
+.container{
+    width:940px;
+    height:400px;
+    margin:0 auto;
+}
+.center{
+    float:left;
+    width:33.3%
+}
+.center img{
+    display:block;
+    margin:0 auto;
+}
+h2{
+    font-family:"YuGothic";
+    font-size:32px;
+    font-weight:700;
+    color:#555;
+}
+.center h2{
+    text-align: center;
+    margin:25px 0 25px;
+}
+.center p{
+    text-align: center;
+    font-family:"Hiragino Kaku Gothic ProN";
+    font-size:16px;
+    font-weight:400;
+    color:#555;
+}
+
+.under{
+    width:1000px;
+    height:420px;
+    margin:75px auto 65px;
+}
+.under h2{
+    width:360px;
+    height:100px;
+    margin-bottom:25px;
+}
+.under p{
+    font-family:"Hiragino Kaku Gothic ProN";
+    font-size:16px;
+    font-weight:400;
+    color:#555;
+}
+.under a{
+    border:medium solid #51A2BC;
+    border-radius:30px;
+    display:inline-block;
+    margin-top:25px;
+    width: 160px;
+    height:45px;
+    line-height: 45px;
+    font-size:22px;
+    font-weight:700;
+    font-family: "YuGothic";
+    color:#51A2BC;
+    text-align: center;
+}
+.under img{
+    float:right;
+}
+.under-left{
+    float:left;
+}
+
+footer{
+    width:1280px;
+    height:50px;
+    background-color: #d5d5d5;
+    margin:0 auto;
+
+}
+footer p{
+    color:white;
+    font-family: "Helvatica";
+    font-size:10px;
+    text-align: center;
+    line-height: 50px;
+    font-weight: 700;
+}
